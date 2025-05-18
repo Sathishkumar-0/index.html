@@ -1,0 +1,94 @@
+<marquee behavior="" direction="right"
+  ><center><h1>Course Registration Form</h1></center></marquee
+>
+<form action="responds.Html" autocomplete="on" target="_blank">
+  <fieldset>
+    <legend>Personal Details</legend>
+    <table>
+      <tr>
+        <td><label>First Name*</label></td>
+        <td>
+          <input
+            type="text"
+            required
+            placeholder="ex:sathish"
+            name="First Name"
+          /><br />
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>surename*</label></td>
+        <td>
+          <input type="text" required placeholder="ex.T" name="s name" /><br />
+        </td>
+      </tr>
+      <tr>
+        <td><label> Mobile number</label></td>
+        <td><input type="tel" required name="Mobile no" /><br /></td>
+      </tr>
+      <tr>
+        <td><label>E-mail</label></td>
+        <td><input type="text" required name="E-Mail" /><br /></td>
+      </tr>
+      <tr>
+        <td><label for="">Password</label></td>
+        <td>
+          <input type="password" name="password" id="" minlength="8" /><br />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="">Conform password</label></td>
+        <td><input type="password" name="c password" /><br /></td>
+      </tr>
+      <tr>
+        <td><label for="">DOB</label></td>
+        <td><input type="date" name="DOB" /><br /></td>
+      </tr>
+      <tr>
+        <td><label for="">Gender</label></td>
+        <td>
+          <input type="radio" name="Gender" id="" name="m" />Male
+          <input type="radio" name="Gender" id="" name="f" />Female
+          <input type="radio" name="Gender" id="" name="o" />Others
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="">Seledt country</label>
+        </td>
+        <td>
+          <select name="country" id="">
+            <option value="IND">India</option>
+            <option value="USA">usa</option>
+            <option value="TAI">tai</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="">Uplode picture</label></td>
+        <td><input type="file" name="pic" /><br /></td>
+      </tr>
+      <tr></tr>
+      <td><input type="reset" /></td>
+      <tr>
+        <td><input type="submit" /></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>Course details</legend>
+    <label for="">Select course</label><br />
+    <select name="" id="">
+      <option value="">Python Full Stack</option>
+      <option value="">java Full stacl</option></select
+    ><br />
+    <label for="">Delivery Mode</label>
+    <input type="radio" name="Delivery Mode" id="" />Online
+    <input type="radio" name="Delivery Mode" id="" />Offline
+    <br />
+    <label for="">comment</label><br />
+    <textarea name="" id="" rows="5" cols="30"></textarea>
+  </fieldset>
+</form>
